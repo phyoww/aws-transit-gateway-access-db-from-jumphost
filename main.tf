@@ -372,7 +372,7 @@ resource "aws_security_group" "sg1" {
     cidr_blocks = ["172.16.0.0/24"]
   }  
   ingress {
-    from_port   = 0 # the ICMP type number for 'Echo'
+    from_port   = 8 # the ICMP type number for 'Echo'
     to_port     = 0 # the ICMP code
     protocol    = "tcp"
     cidr_blocks = ["172.16.1.0/24"]
