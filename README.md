@@ -20,7 +20,6 @@ ssh -i "keypair" ec2-user@172.16.1.X
 
 ## Verify the connectivity test
 
-Can reach out to Web1 private IP from Web2
 1. Can reach out to Cloudideastar-PrivateSvr1(VPC3) private IP from Cloudideastar-Svr1 (VPC1)
 
 
