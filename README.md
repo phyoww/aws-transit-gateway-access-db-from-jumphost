@@ -16,7 +16,7 @@ SSH to private EC2 Cloudideastar-PrivateSvr1(VPC3) via public EC2 Cloudideastar-
 ```bash
 ssh -i "keypair" ec2-user@172.16.1.X
 ```  
-![header image](tgw.jpg)
+![header image](transitgateway.jpg)
 
 ## Verify the connectivity test
 
