@@ -556,7 +556,7 @@ resource "aws_instance" "Cloudideastar-PrivateSvr1" {
 
 ##Key Pair
 
-resource "aws_key_pair" "cloudideastar-keypair" {
-  key_name   = "cloudideastar-keypair"
-  public_key = "keypari AsvzlN0VG local" # put your public key here
+resource "aws_key_pair" "keypair" {
+  key_name   = "keypair"
+  public_key = "keypari AsvzlN0VG local" # put your (public key) here
 }
