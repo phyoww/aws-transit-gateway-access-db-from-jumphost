@@ -3,11 +3,11 @@
 
 1. Create public and private key follow below link.
 2. https://docs.acquia.com/acquia-cloud-platform/manage-apps/command-line/ssh/getting-started/generate
-3. Update the public in main.tf file.  
+3. Update the public in main.tf file.
 
 # STEP - 2. git clone the repo
 
-# STEP - 3. Copy the keypari file from local machine to EC2 Public Cloudideastar-Svr1 (VPC1)
+# STEP - 3. Copy the keypari (private key) file from local machine to EC2 Public Cloudideastar-Svr1 (VPC1)
 
 cat keypair > copy
 ssh to public ec2 and past there > vi keypair
